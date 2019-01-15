@@ -79,7 +79,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')
-      .addField('شكرا لك لاستخدامك ل دراجون بوت', `https://discordapp.com/api/oauth2/authorize?client_id=478893774949318666&permissions=8&scope=bot`)
+      .addField('شكرا لك لاستخدامك ل شادوز بوت', `غير متوفر الان`)
   message.author.send({embed});
 
  }
@@ -91,8 +91,8 @@ client.on("message", message => {
  if (message.content === "+support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة دراجون بوت')  
-      .addField('سيرفر الدعم الفني', `  https://discord.gg/SFY3F2g  `)
+      .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة TheShadowzBot')  
+      .addField('سيرفر الدعم الفني', `  فير متوفر  `)
   message.author.send({embed});
 
  }
@@ -121,7 +121,7 @@ client.on('guildMemberAdd', member => {
         .setColor('RANDOM')
         .setThumbnail(memberavatar)
         .addField(':running_shirt_with_sash: | name :  ',`${member}`)
-        .addField(':loudspeaker: | اطلق من دخل شخص جديد' , `اهلاً بك في السيرفر, ${member}`)
+        .addField(':loudspeaker: | مين الي دخل ناو' , `نورت السيرفر يا حب, ${member}`)
         .addField(':		id: | user :', "**[" + `${member.id}` + "]**" )
                 .addField('➡| انت العضو رقم',`${member.guild.memberCount}`)
                
@@ -139,11 +139,11 @@ client.on('guildMemberAdd', member => {
         var embed = new Discord.RichEmbed()
         .setAuthor(member.user.username, member.user.avatarURL)
         .setThumbnail(member.user.avatarURL)
-        .setTitle(`لقد خرج صديق :( :raised_hand::skin-tone-1: :pensive:`)
-        .setDescription(`مع السلامة يحبي :raised_hand::skin-tone-1: :pensive: `)
+        .setTitle(`خرج الحب وسابني لوحدي :( :raised_hand::skin-tone-1: :pensive:`)
+        .setDescription(` اصلا عادي بره :raised_hand::skin-tone-1: :pensive: `)
         .addField(':bust_in_silhouette:   تبقي',`**[ ${member.guild.memberCount} ]**`,true)
         .setColor('RED')
-        .setFooter(`====شكرا للاستمتاع====`, ' https://cdn.discordapp.com/attachments/397818254439219217/399292026782351381/shy.png')
+        .setFooter(`====شكرا لاستخدامك البوت====`, ' https://d.top4top.net/p_1110dli7g1.png')
     
     var channel =member.guild.channels.find('name', 'welcome')
     if (!channel) return;
@@ -170,7 +170,7 @@ client.on("message", message => {
       .setColor("RANDOM")	
       .setFooter('======================================================')
       .setFooter('اوامر الاعضاء')
-      .addField('+invite', `لاضافة البوت الى سيرفرك`)	
+      .addField('غير متوفر', `لاضافة البوت الى سيرفرك`)	
       .addField('+bot' , `لمعرفة البوت`)
       .addField('+ping' , `لمعرفة سرعة اتصال البوت`)
  
